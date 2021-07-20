@@ -14,7 +14,13 @@
     grid-area: caja1;
     
 }
+.div1 h3{
+    background-color: $color_logo;
+    border-radius: 4px;
+    color: $color_productos;
+    padding-top: 1%;
 
+}
 .mod-nov{
     text-align: center;
 }
@@ -27,6 +33,11 @@
     font-family: $font_grueso;
 }
 
+.redes-soc{
+    background-color: $background_textos;
+    padding: 1% 2% 2% 1%;
+    border-radius: 10px;
+}
 
 @media only screen and (max-width: 600px){
     
