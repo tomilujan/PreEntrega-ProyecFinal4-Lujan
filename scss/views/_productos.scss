@@ -13,6 +13,21 @@
     height: auto;
     
 }
+.tit-productos{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 2%;
+    background-color: $color_logo;
+    color: $color_productos;
+    font-family: $font_grueso;
+}
+.lista-1 li{
+    color: white;
+}
+.lista-2 li{
+    color: white;
+}
 
 @media only screen and (max-width: 600px){
     .img1{
@@ -26,6 +41,16 @@
         .col{
             font-size: 00.80rem;
         }
+    }
+
+    .tit-productos{
+        font-size: 1rem;
+    }
+    .lista-1 li{
+        font-size: 00.80rem;
+    }
+    .lista-2 li{
+        font-size: 00.80rem;
     }
 }
     

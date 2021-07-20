@@ -107,7 +107,7 @@ body {
     background-color: rgba(0, 0, 0, 0.75); }
 
 .novedades-grid {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin-top: 2%;
   margin-left: 2%;
@@ -151,6 +151,25 @@ body {
       grid-area: caja3;
       height: auto;
       justify-content: space-evenly; }
+
+.servicios {
+  height: auto;
+  width: 100%;
+  background-color: #192E59;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "lista-1 lista-2" "lista-1 lista-2";
+  column-gap: 6px; }
+  .servicios .lista-1 {
+    grid-area: "lista-1";
+    display: flex;
+    justify-content: left;
+    flex-direction: column; }
+  .servicios .lista-2 {
+    grid-area: "lista-2";
+    display: flex;
+    justify-content: right;
+    flex-direction: column; }
 
 .footer--mod {
   display: flex;
@@ -292,6 +311,21 @@ li, a {
   width: 100%;
   height: auto; }
 
+.tit-productos {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 2%;
+  background-color: #ffc107;
+  color: #050505;
+  font-family: "Anton", sans-serif; }
+
+.lista-1 li {
+  color: white; }
+
+.lista-2 li {
+  color: white; }
+
 @media only screen and (max-width: 600px) {
   .img1 {
     width: 40vw;
@@ -301,7 +335,13 @@ li, a {
     height: auto;
     margin-bottom: 2%; }
     .cont-prod .col {
-      font-size: 00.80rem; } }
+      font-size: 00.80rem; }
+  .tit-productos {
+    font-size: 1rem; }
+  .lista-1 li {
+    font-size: 00.80rem; }
+  .lista-2 li {
+    font-size: 00.80rem; } }
 
 .contacto {
   width: 100%;
